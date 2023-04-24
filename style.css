@@ -21,7 +21,7 @@ a{
 
 #global-nav{
     position: -webkit-sticky;
-    position: sticky;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -68,10 +68,10 @@ a{
     display: block;
     margin: 0 auto;
     max-width: 980px;
-    padding: 0 24px;
+    padding: 0 20px;
     position: relative;
     z-index: 2;
-    width: calc(100% - 48px);
+    width: calc(100% - 40px);
     border-bottom: none;
 }
 
@@ -128,8 +128,8 @@ a{
     background: #0071e3;
     color: #fff;
     border-radius: 20px;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 18px;
     font-weight: normal;
     padding: 4px 11px;
     margin-top: -1px;
@@ -137,25 +137,25 @@ a{
 
 #main-section .section-content{
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 0 20px;
     max-width: 980px;
-    width: calc(100% - 48px);
+    width: calc(100% - 40px);
     height: auto;
 }
 
 #main-section .content-container{
     margin: 0;
-    padding: 24px 0;
+    padding: 22px 0;
 }
 
 #main-section .content-container span{
-    font-size: 22px;
-    line-height: 46px;
+    font-size: 20px;
+    line-height: 40px;
     display: block;
     text-align: justify;
     text-justify: inter-word;
-    padding-bottom: 20px;
-    letter-spacing: 2px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
 }
 
 #main-section .block{
@@ -177,8 +177,8 @@ a{
 #main-section td{
     padding: 8px 0;
     text-align: left;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 #main-section td a{
@@ -188,8 +188,8 @@ a{
 #main-section span.fa{
     margin: 0;
     padding: 0;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 12px;
+    line-height: 24px;
     display: inline-block;
 }
 
