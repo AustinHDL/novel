@@ -1,0 +1,198 @@
+@font-face {
+    font-family: myFont;
+    src: url('myFont.ttf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: normal;
+    font-family: 'myFont', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #cae0cb;
+    color: #1d1d1f;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+#global-nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 52px;
+    z-index: 9997;
+}
+
+#global-nav .global-nav-wrapper{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+#global-nav .global-nav-background{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: background 0.5s cubic-bezier(0.28,0.11,0.32,1);
+    background: #fff;
+}
+
+#global-nav .global-nav-background:after{
+    background: rgba(0,0,0,.16);
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    margin-left: 0;
+    z-index: 1;
+}
+
+#global-nav .global-nav-content{
+    display: block;
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 24px;
+    position: relative;
+    z-index: 2;
+    width: calc(100% - 48px);
+    border-bottom: none;
+}
+
+#global-nav .global-nav-content::before, #global-nav .global-nav-content::after{
+    content: '';
+    display: table;
+}
+
+#global-nav .global-nav-content::after{
+    clear: both;
+}
+
+#global-nav .global-nav-title{
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: bold;
+    cursor: default;
+    display: block;
+    height: 52px;
+    white-space: nowrap;
+    color: #000;
+    transition: color 0.5s cubic-bezier(0.28,0.11,0.32,1);
+    float: left;
+    margin: 14px 0 -14px;
+    padding: 0;
+}
+
+#global-nav .global-nav-title span{
+    display: flex;
+    flex-direction: column-reverse;
+    line-height: inherit;
+    margin: 0;
+    white-space: nowrap;
+    opacity: .88;
+}
+
+#global-nav .global-nav-actions{
+    display: block;
+    float: right;
+    padding-top: 18px;
+}
+
+#global-nav .global-nav-action-button{
+    display: block;
+    margin-left: 24px;
+}
+
+#global-nav .global-nav-button{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    background: #0071e3;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    padding: 4px 11px;
+    margin-top: -1px;
+}
+
+#main-section .section-content{
+    margin: 0 auto;
+    padding: 0 24px;
+    max-width: 980px;
+    width: calc(100% - 48px);
+    height: auto;
+}
+
+#main-section .content-container{
+    margin: 0;
+    padding: 24px 0;
+}
+
+#main-section .content-container span{
+    font-size: 22px;
+    line-height: 46px;
+    display: block;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+#main-section .block{
+    height: 22px;
+    width: 38px;
+    display: inline-block;
+}
+
+#main-section .checked{
+    color: orange;
+}
+
+#main-section table{
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+}
+
+#main-section td{
+    padding: 8px 0;
+    text-align: left;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+#main-section td a{
+    color: #1d1d1f;
+}
+
+#main-section span.fa{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    line-height: 26px;
+    display: inline-block;
+}
+
+#main-section .rating{
+    text-align: right;
+}
