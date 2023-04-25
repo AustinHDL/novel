@@ -182,7 +182,7 @@ a{
 }
 
 #main-section td a{
-    color: #1d1d1f;
+    color: inherit;
 }
 
 #main-section span.fa{
@@ -195,4 +195,9 @@ a{
 
 #main-section .rating{
     text-align: right;
+    width: 30%;
+}
+
+#main-section .noval-list-black-theme{
+    color: #696e6f;
 }

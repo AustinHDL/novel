@@ -2,6 +2,7 @@ var date = new Date();
 var hour = date.getHours();
 var navbackground = document.getElementById("global-nav-background");
 var navcolor = document.getElementById("global-nav-title");
+var list = document.getElementById("title-list");
 
     if (hour >= 6 && hour < 18) {
         // 正常模式
