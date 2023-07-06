@@ -48,7 +48,7 @@ a{
     height: 100%;
     z-index: 1;
     transition: background 0.5s cubic-bezier(0.28,0.11,0.32,1);
-    background: #fff;
+    background: #333333;
 }
 
 #global-nav .global-nav-background:after{
@@ -111,7 +111,7 @@ a{
 #global-nav .global-nav-actions{
     display: block;
     float: right;
-    padding-top: 18px;
+    padding-top: 14px;
 }
 
 #global-nav .global-nav-action-button{
@@ -150,11 +150,11 @@ a{
 
 #main-section .content-container span{
     font-size: 20px;
-    line-height: 40px;
+    line-height: 44px;
     display: block;
     text-align: justify;
     text-justify: inter-word;
-    padding-bottom: 15px;
+    padding-bottom: 22px;
     letter-spacing: 1px;
 }
 
@@ -171,14 +171,26 @@ a{
 #main-section table{
     width: 100%;
     height: auto;
-    padding: 40px 0;
+    padding: 0;
+    margin: 0;
+}
+
+#main-section tr{
+    width: calc(100% - 24px);
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    background: #F5F5F7;
+    margin-bottom: 10px;
+    padding: 10px 12px;
 }
 
 #main-section td{
-    padding: 8px 0;
+    padding: 0;
+    margin: 0;
     text-align: left;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 #main-section td a{
@@ -194,8 +206,11 @@ a{
 }
 
 #main-section .rating{
-    text-align: right;
-    width: 30%;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    display: block;
 }
 
 #main-section .noval-list-black-theme{
